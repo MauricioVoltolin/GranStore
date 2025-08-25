@@ -31,7 +31,7 @@ public class HomeController : Controller
 
         List<Produto> produtos = new()
         {
-            new Produto { Id = 1, Nome = "Samsung A56", Descricao = "Celular da Samsung", Categoria = categorias[1], QtdeEstoque = 10, ValorCusto = 2000.00m, ValorVenda = 4000.00m, Foto = "/img/produtos/1.png" },
+            new Produto { Id = 1, Nome = "Samsung S24+", Descricao = "Celular da Samsung", Categoria = categorias[1], QtdeEstoque = 10, ValorCusto = 3000.00m, ValorVenda = 4000.00m, Foto = "/img/produtos/1.png" },
             new Produto { Id = 2, Nome = "Computador Completo I5", Descricao = "Computador Completo", Categoria = categorias[2], QtdeEstoque = 10, ValorCusto = 2000.00m, ValorVenda = 4000.00m, Foto = "/img/produtos/2.png" },
             new Produto { Id = 3, Nome = "Notebook Acer Nitro", Descricao = "Notebook Gamer", Categoria = categorias[3], QtdeEstoque = 10, ValorCusto = 2000.00m, ValorVenda = 4000.00m, Foto = "/img/produtos/3.png" },
             new Produto { Id = 4, Nome = "SSD 480GB", Descricao = "SSD melhor que HD", Categoria = categorias[4], QtdeEstoque = 10, ValorCusto = 2000.00m, ValorVenda = 4000.00m, Foto = "/img/produtos/4.png" },
